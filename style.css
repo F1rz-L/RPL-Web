@@ -1,9 +1,25 @@
 a:link{
     color: #eee;
+    text-decoration: none;
 }
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: gray;
+}
+
+
+
+@font-face {
+        font-family: "Roboto";
+        src: url(/fonts/Roboto-Regular.ttf);
+    }
 
 body{
     color: #eee;
     background-color: #111;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Roboto";
 }
