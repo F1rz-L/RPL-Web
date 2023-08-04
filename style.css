@@ -9,10 +9,12 @@ a:hover{
 }
 
 a:visited{
-    color: gray;
+    color: #eee;
 }
 
-
+.topnav{
+    padding: 10px; background-color : #141c24;
+}
 
 @font-face {
         font-family: "Roboto";
