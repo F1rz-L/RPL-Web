@@ -1,4 +1,9 @@
-/*about fonts*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
 a:link{
     color: #eee;
     text-decoration: none;
@@ -12,8 +17,24 @@ a:visited{
     color: #eee;
 }
 
+nav{
+    display: flex;
+    background-color : #141c24;
+    justify-content: space-between;
+    padding: 5px 2px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding-right: 120px;
+}
+
 .topnav{
-    padding: 10px; background-color : #141c24;
+    padding: 10px; 
 }
 
 @font-face {
