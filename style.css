@@ -4,6 +4,12 @@
 
 }
 
+.wadah{
+    width: 800px;
+    margin: auto;
+}
+
+
 a:link{
     color: #eee;
     text-decoration: none;
@@ -45,4 +51,35 @@ body{
     color: #eee;
     background-color: #111;
     font-family: "Roboto";
+}
+
+nav img{
+    width: 178px;
+}
+
+img{
+    width: 80%;
+}
+
+.warna{
+    background-image: linear-gradient(to right,red,orange,red,yellow);
+}
+
+.border{
+    border: 2px solid;
+    padding: 10px;
+}
+
+.card{
+    width: 30%;
+}
+
+.horizontal{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rata{
+    text-align: center;
 }
